@@ -28,6 +28,18 @@
   background: #a0bfbd;
 }
 
+#lang-switcher {
+	margin: 20px;
+	background: #a0bfbd;
+	border-radius: 5px;
+	padding: 5px 10px;
+    display: flex;
+    justify-content: center; /* centers child horizontally */
+    align-items: center;
+	max-width: 70%;
+	margin: 20px auto;
+}
+
 .flag {
   width: 40px;
   height: 25px;
@@ -373,6 +385,7 @@ body {
   margin: 0 15%;
   background-color: #a0bfbd;
   color: #fff;
+  	border-radius: 5px;
 }
 
 .about-back-back-shipping {
