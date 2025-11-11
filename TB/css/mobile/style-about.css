@@ -1,14 +1,18 @@
+  .about-title2 {
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 600px) {
   .top-line {
-    height: 20px;
+	height: 20px;
   }
 
   .back-main {
-    font-size: 24px;
+	font-size: 24px;
   }
 
   .li {
-    margin: auto;
+	margin: auto;
   }
 
   .a {
@@ -17,13 +21,13 @@
     font-size: 10px;
   }
   .dropbtn {
-	  font-size: 10px;
-	  line-height: 50%;
+	font-size: 10px;
+	line-height: 50%;
   }
   .dropdown-content {
-	  font-size: 13px;
-	  letter-spacing: 3px;
-	  border-radius: 3%;
+	font-size: 13px;
+	letter-spacing: 3px;
+	border-radius: 3%;
   }
 
   .active {
@@ -38,28 +42,38 @@
     letter-spacing: 3px;
     font-size: 7px;
   }
+  
+  #lang-switcher {
+	margin: 20px;
+	background: #a0bfbd;
+	border-radius: 0;
+	padding: 5px 10px;
+    display: flex;
+    justify-content: center; /* centers child horizontally */
+    align-items: center;
+	max-width: 100%;
+	margin: 20px auto;
+}
 
   .about-tiana-img-1 {
-	  display: none;
+	display: none;
   }
 
   .about-tiana-img-2 {
-	  display: none;
+	display: none;
   }
 
   .about-tiana-img-3 {
-	  display: none;
+	display: none;
   }
 
   .about-title {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
     font-size: 18px;
     font-weight: 300;
-		display: flex;
-	justify-content: center;
 	margin: 5% auto 0 auto;
+	max-width: 100%;
   }
   
    .about-title1 {
@@ -68,43 +82,33 @@
     letter-spacing: 3px;
     font-size: 18px;
     font-weight: 300;
-		display: flex;
-	justify-content: center;
 	margin: 5% auto 0 auto;
-	
-	display: flex;
-	justify-content: center;
-	max-width: 100%;
+		max-width: 100%;
   }
-  
-  .about-title2 {
-	margin-top: 1%;
-  font-family: "Quicksand", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #2e5e61;
-    text-transform: uppercase;
-    letter-spacing: 3px;
 
-	display: flex; justify-content: center; max-width: 100%;
-	margin: auto;
+  .about-title2 {
+	font-family: "Quicksand", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2e5e61;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 15% auto 0 auto;
+		max-width: 100%;
 }
   
   .about-art-text {
-	  max-width: 100%;
-	  text-align: center;
-
+	max-width: 100%;
   }
 
   .about-text {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     max-width: 100%;
-    margin: 1% auto 0 13%;
+    margin: 1% 5% 0 5%;
     letter-spacing: 1px;
-    text-align: center;
   }
   
 
@@ -125,6 +129,7 @@
   .about-back-back {
     padding: 1% 10% 3% 0;
     margin: 0;
+	border-radius: 0;
   }
 
   .div-home {
